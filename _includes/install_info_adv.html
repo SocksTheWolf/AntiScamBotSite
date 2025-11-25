@@ -1,0 +1,26 @@
+<hr />
+<a name="advanced"></a>
+<p><b>ADVANCED!</b> Installing {{ site.bot_name }} without giving it a moderator role:</p>
+<ol>
+	<li>Move the role in your role management screen like below<br />
+
+		{% include notification.html message="Place the newly created role one level _below_ your server's moderator role **OR** one level _above_ your regular members role. 
+	This helps prevent Discord permission mismatches that may occasionally occur.
+
+An example of the placement can be seen in the video below:
+<div class='embed-container centered'>
+	<iframe
+		src='https://www.youtube.com/embed/XYaQi3hM9ug'
+		width='700'
+		height='480'
+		frameborder='0'
+		allowfullscreen='true'>
+	</iframe>
+</div>"  %}
+
+		<span class="install-note">
+
+		</span>
+	</li>
+	<li>Add the {{ site.bot_name }} role to a moderator channel so it can send important information to it as needed (usually if a ban fails to be applied).</li>
+</ol>

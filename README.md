@@ -1,2 +1,2 @@
-# AntiScamBotSite
-The website for ScamGuard
+# AntiScamBot Site
+The website for the ScamGuard project

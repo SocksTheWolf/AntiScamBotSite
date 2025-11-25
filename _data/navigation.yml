@@ -1,0 +1,12 @@
+# Belongs at: /_data/navigation.yml
+
+- name: About
+  link: /about
+- name: FAQ
+  link: /faq
+- name: Install
+  link: /install
+- name: Report
+  link: /report
+- name: TAG Discord
+  link: /discord

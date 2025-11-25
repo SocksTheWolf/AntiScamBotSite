@@ -1,0 +1,30 @@
+title: ScamGuard
+description: The website home to an automated solution to stop scammers on Discord.
+author: The Antiscam Group
+logo: /assets/site-logo.png
+favicon: /favicon.ico
+url: "https://scamguard.app"
+api_docs: "https://api.scamguard.app"
+contact_url: "https://socksthewolf.com/contact"
+google_analytics: "G-3B15EPXBFZ"
+permalink: /:slug
+comments: false
+show_downloads: false
+use_zapier_report: false
+report_support_multiple_files: true
+report_max_size_per_file: 3
+report_max_files: 4
+report_max_size: 10
+bot_name: ScamGuard
+discord_client_id: 1152057650226401320
+discord_uses_intents: false
+github_username: socksthewolf
+show_sidebar: false
+theme: bulma-clean-theme
+force_theme: dark
+footer_menu: footer_menu
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-liquify
