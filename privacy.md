@@ -130,6 +130,10 @@ Both the bot and tools have log files that are stored locally and rotate about e
 
 No.
 
+## Do you use AI or train on the data?
+
+No.
+
 ## Do you store information about users in a server?
 
 No.
