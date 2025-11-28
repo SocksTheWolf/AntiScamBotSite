@@ -17,6 +17,12 @@ hero_height: is-fullwidth
 
 {% include install_info.html %}
 
+### Do I have to add a mod role to {{ site.bot_name }}?
+
+It's recommended that you do, it solves so many potential issues with Discord permissions.
+
+However, if you would not want to do so, [follow the instructions on this page here](/advanced-install).
+
 ### Why does {{ site.bot_name }} need the permissions it has?
 
 Because of how Discord handles permissions it needs the following permissions:
@@ -43,14 +49,22 @@ Because of how Discord handles permissions it needs the following permissions:
 
 ### Someone messaged me saying they're unable to get into my server, is that ScamGuard's doing?
 
-This is an _extremely rare_ occurance.
+> It's _extremely unlikely_ that a legitimate user was caught and banned by {{ site.bot_name }}.
 
-You can run a `/scamguard check` against their user id to see if they're registered as a scammer in {{ site.bot_name }}. If it comes back as false, then the user was likely marked as a suspicious IP by Discord.
-This can happen if a scammer previously had their IP address (as IP addresses often recycle to various people) and made several accounts, or violated their TOS.
+You can run a `/scamguard check` against their Discord user id to see if their account is registered as a scammer by {{ site.bot_name }}.  
 
-Sometimes, when a scam account is banned, Discord will also flag the IP the account when you get the ban imported by the bot. This is considered a feature by Discord.
+If this check comes back _false_, the user might have tried to join from a "suspicious IP" and was barred entry by Discord.
 
-Legitimate users can get around this Discord behavior by joining the server on mobile instead.
+This can happen if a scammer previously had the user's IP address (as IP addresses often recycle to various people) and either made several accounts or violated the Discord TOS.
+
+_Rarely_, when a scam account is banned, Discord may also flag the IP address the scammer was using.  
+There's **no way to know** if/when Discord does this on your behalf.  
+There's also **no way to turn this Discord feature off** but it has been observed this block expires after a few days.
+
+Legitimate users can get around this Discord behavior by joining the server on their mobile device or a VPN instead.  
+They can then access the server via anywhere without any negative effects.
+
+_It's been two years (as of November 2025), since we've heard anyone having this issue. Discord may have turned it off._
 
 ### Is {{ site.bot_name }} open source?
 
