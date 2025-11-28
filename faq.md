@@ -27,7 +27,9 @@ However, if you would not want to do so, [follow the instructions on this page h
 
 Because of how Discord handles permissions it needs the following permissions:
 
-* `Create Commands`: For implementing the various application slash commands.
+* `Create Commands`: To add the application commands to interact with the bot.
+
+* `Create Private Threads`: This is used to send the first time setup message.
 
 * `Send Messages`: To send responses to user commands.
 
