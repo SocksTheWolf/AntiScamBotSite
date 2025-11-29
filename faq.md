@@ -126,7 +126,7 @@ Scammers are users/bots on Discord who send unsolicited direct messages demandin
 
 This is not a complete list, but these are also scams as well:
 
-* Ask you to playtest their game out of the blue (this is usally from someone getting their account compromised)
+* Ask you to playtest their game out of the blue (this is usually from someone getting their account compromised)
 * Ask you what you'd do with sudden influxes of cash (the "sugar momma" scam)
 * Direct solicitation of commissions
 * Stolen/traced/obvious AI artwork

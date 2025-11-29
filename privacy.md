@@ -102,7 +102,7 @@ the bot is fully activated.
 
 ---
 
-Overally, while external access is protected, this is not guarenteed and the bot owners assume no liability for the unintentional or malicious breach of any data.  
+Overally, while external access is protected, this is not guaranteed and the bot owners assume no liability for the unintentional or malicious breach of any data.  
 In the event of unauthorized data access, users in [the control server](/discord) will be alerted.
 
 ## Where is the data stored?
@@ -146,7 +146,7 @@ Data will be fully removed from the active working database and all backups with
 
 ## What about reporting scams from the website/tool?
 
-Data submitted via the [report page](/report) or the tool is handled in transit by Cloudflare before stored at rest on the TAG support server, and such data is under the terms set forth by Discord's Privacy Policy itself. Any uploaded image evidence lasts for approximently six months in a secure bucket before being automatically deleted.
+Data submitted via the [report page](/report) or the tool is handled in transit by Cloudflare before stored at rest on the TAG support server, and such data is under the terms set forth by Discord's Privacy Policy itself. Any uploaded image evidence lasts for approximately one calendar year in a secure bucket before being automatically deleted.
 
 ## What about...?
 

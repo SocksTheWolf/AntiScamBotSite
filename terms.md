@@ -28,7 +28,7 @@ By performing one of these actions, you here by agree to these terms of service 
 3. Intentional command spam or attempts to crash the bot/tools are not allowed.
 4. The Antiscam Group reserves the right to prohibit the usage of the bot/tools/API in any server or from any user they so deem.
 5. Users are responsible for any injury or damages that may arise due to usage/misuage of the bot/tools.
-6. Reporters will make all scam reports in demonstratable good faith, with the best information at the present time.
+6. Reporters will make all scam reports in demonstrable good faith, with the best information at the present time.
 7. Users who abuse the report functionality may be barred from making reports in the future.
 8. The Antiscam Group makes no guarantees of uptime/functionality, but we will try to do our best for the community.
 9. We may update these terms at any time with a notice posted in our server linked to above.
