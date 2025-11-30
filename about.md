@@ -18,7 +18,7 @@ This bot is powered via community reporting, trusted verification, and complete 
 
 Information will always be posted to the bot ban channel, as seen below:
 
-{% include image-modal.html ratio="is-2by1 is-centered" link="/assets/botbanchannel.png" alt="Action Feed Screenshot" %}
+![{{ site.bot_name }} Action Feed Screenshot](/assets/botbanchannel.png){:.centered}
 
 If you have additional questions, you can [check out the FAQ here](/faq).
 {:.centered}

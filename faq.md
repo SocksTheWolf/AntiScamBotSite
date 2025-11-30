@@ -109,7 +109,7 @@ A couple of different ways!
 * Via the [API]({{ site.api_docs }})
 * Running the command `/scamguard check` with an user id or a discord handle
 
-{% include image-modal.html ratio="is-2by1 is-centered" link="/assets/botbanchannel.png" alt="Action Feed Screenshot" %}
+![{{ site.bot_name }} Action Feed Screenshot](/assets/botbanchannel.png){:.centered}
 
 All bans will be logged into your server's audit log. You can revert any ban if you wish and {{ site.bot_name }} will not attempt to re-add it unless you explicitly ask it to reimport bans for your server.
 
