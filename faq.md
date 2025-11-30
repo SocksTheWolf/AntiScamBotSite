@@ -22,7 +22,9 @@ However, if you would not want to do so, [follow the instructions on this page h
 
 ### Can {{ site.bot_name }} ever ban the server owner or mods?
 
-{{ site.bot_name }} cannot ban anyone who has a role equal to or higher than it in the roles list. The only exception to this rule is if server ownership was transferred to the bot (please don't do this). This is why it is suggested to just give {{ site.bot_name }} a mod role, which will allow it to operate correctly.
+{{ site.bot_name }} cannot ban anyone who has a role equal to or higher than it in the roles list. This is why it is suggested to just give {{ site.bot_name }} a mod role, which will allow it to operate correctly.  
+
+The only exception to this rule is if server ownership was transferred to the bot (please don't do this).
 
 ### Why does {{ site.bot_name }} need the permissions it has?
 
