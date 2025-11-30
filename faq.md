@@ -85,17 +85,15 @@ When these scammers first ran rampant, they would always open their dms with the
 
 ---
 
-This section assumes that you are either in a server that has or you have installed the bot and went through the setup steps.
+This section assumes that you are in a server that has {{ site.bot_name }} and went through the setup steps.
 
 ### How do I report a scam?
 
 Currently we support three different ways of reporting a scam!
 
-* Via the `/scamguard report` command the bot has
+* Via the `/scamguard report` command
 * Via the [Discord Server](/discord)
 * Via the [web report system](/report)
-
-Reports are not immediately visible to newly joined servers of the server to combat potential abuse.
 
 When you report an user, you'll be asked to provide some image evidence, this is important when determining appropriate action.
 
@@ -105,13 +103,16 @@ When you report an user, you'll be asked to provide some image evidence, this is
 
 A couple of different ways!
 
-* Via the server feed (see below) that you can install when setting up the bot
+* Via the server feed (see below) that you can install when setting up {{ site.bot_name }}
+* Looking them up in the [TAG Server](/discord)
 * Via the [API]({{ site.api_docs }})
-* Running the command `/scamguard check` with an user id or a discord handle
+* Running the command `/scamguard check` with an user id or a Discord handle
 
 ![{{ site.bot_name }} Action Feed Screenshot](/assets/botbanchannel.png){:.centered}
 
 All bans will be logged into your server's audit log. You can revert any ban if you wish and {{ site.bot_name }} will not attempt to re-add it unless you explicitly ask it to reimport bans for your server.
+
+> **Note**: Reports are not immediately visible to newly joined users of the TAG server to combat potential abuse.
 
 ## Scammers
 
