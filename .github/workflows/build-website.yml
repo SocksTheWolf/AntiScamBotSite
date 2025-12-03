@@ -96,6 +96,7 @@ jobs:
         if: success()
         run: ls -lha _site/assets/css
       - name: Upload artifact
+        if: success()
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v4
 
