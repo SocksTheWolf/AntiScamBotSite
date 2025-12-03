@@ -89,19 +89,13 @@ jobs:
           JEKYLL_ENV: production
         # The current thought is that it's not copying correctly or is copying too late
         # so if we put it into a different directory it should just work fine.
-      - name: Remove Original CSS
-        if: steps.pages.outcome == 'success'
-        id: remove
-        run: rm -f _site/assets/css/bulma.css _site/assets/css/font-awesome.css
       - name: Purge CSS
         if: success()
-        id: purge
         run: npx purgecss -v --css assets/css/*.css --content "_site/*.html" --output _site/assets/css
       - name: Sanity check
         if: success()
-        run: ls -a _site/assets/css
+        run: ls -lha _site/assets/css
       - name: Upload artifact
-        if: success()
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v4
 
