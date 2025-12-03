@@ -92,6 +92,10 @@ jobs:
         run: mkdir cleancss
       - name: Purge CSS
         run: npx purgecss -v --css assets/css/*.css --content "_site/*.html" --output cleancss
+      - name: Sanity check
+        run: ls -a
+      - name: Sanity 2 Check
+        run: ls purgecss/assets/css
       - name: Copy Directory into Output
         run: cp -rf cleancss/** _site/
       - name: Upload artifact
