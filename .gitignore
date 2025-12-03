@@ -19,3 +19,4 @@ Gemfile.lock
 
 # For CSS cleaning
 node_modules/
+cleancss/

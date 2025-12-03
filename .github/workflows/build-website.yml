@@ -13,7 +13,7 @@ on:
     # But ignore if the commit only updates these
     # paths
     paths-ignore:
-      - ".github/**"
+      - ".github/dependabot.yml"
       - "README.md"
       - "LICENSE"
       - "CNAME"
@@ -86,8 +86,14 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+        # The current thought is that it's not copying correctly or is copying too late
+        # so if we put it into a different directory it should just work fine.
+      - name: CSS Output Dir Make
+        run: mkdir cleancss
       - name: Purge CSS
-        run: npx purgecss -v --css assets/css/*.css --content "_site/*.html" --output "_site/"
+        run: npx purgecss -v --css assets/css/*.css --content "_site/*.html" --output cleancss
+      - name: Copy Directory into Output
+        run: cp -rf cleancss/** _site/
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v4
