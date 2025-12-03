@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "clean": "purgecss --content _site/*.html --css assets/css/*.css --output _site/"
+    "clean": "purgecss -v -css assets/css/*.css --output _site/ --content _site/*.html"
   },
   "type": "module",
   "dependencies": {
