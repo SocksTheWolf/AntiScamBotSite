@@ -89,6 +89,8 @@ jobs:
           JEKYLL_ENV: production
         # The current thought is that it's not copying correctly or is copying too late
         # so if we put it into a different directory it should just work fine.
+      - name: Remove Original CSS
+        run: rm -f _site/assets/css/bulma.css _site/assets/css/font-awesome.css
       - name: Purge CSS
         run: npx purgecss -v --css assets/css/*.css --content "_site/*.html" --output _site/assets/css
       - name: Sanity check
