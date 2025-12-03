@@ -24,6 +24,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-liquify
 
+sass:
+  style: compressed
+
 defaults:
   - scope:
       path: ""
