@@ -10,7 +10,7 @@ toc: true
 
 ---
 
-> Last Updated: 11/26/2025
+> Last Updated: 12/04/2025
 
 The usage of this service/application ("bot") in your server requires the collection of some specific user data. Usage and interaction of {{ site.bot_name }} ("the bot"), reporting tools or the user app interactions ("tools") is considered an agreement to this policy.
 
@@ -48,6 +48,8 @@ For the Discord app interactions ("tool") that can be installed onto a Discord u
   * What command was used
   * Who used it
   * When the command was used
+* The Channel ID if a message was forwarded using the tool.
+  * This data is automatically deleted 5 minutes from the last message sent from a channel.
 
 For reports, the following is collected and stored:
 
